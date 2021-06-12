@@ -6,7 +6,7 @@ echo 'azmi - build executable'
 # dotnet build src/azmi-commandline/azmi-commandline.csproj
 dotnet publish ./src/azmi-commandline/azmi-commandline.csproj --configuration Release --self-contained true /p:PublishSingleFile=true --runtime linux-x64
 
-exePath=$(cd ./src/azmi-commandline/bin/Release/netcoreapp3.1/linux-x64/publish || exit; pwd)
+exePath=$(cd ./src/azmi-commandline/bin/Release/net5.0/linux-x64/publish || exit; pwd)
 export PATH="$exePath:$PATH"
 export DOTNET_BUNDLE_EXTRACT_BASE_DIR="$HOME/cache_dotnet_bundle_extract"
 

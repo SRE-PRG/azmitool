@@ -154,3 +154,4 @@ See [testing overview here](./Testing.md).
 ![GitHub repo size](https://img.shields.io/github/repo-size/sre-prg/azmitool)
 ![GitHub language count](https://img.shields.io/github/languages/count/sre-prg/azmitool)
 ![GitHub top language](https://img.shields.io/github/languages/top/sre-prg/azmitool)
+
